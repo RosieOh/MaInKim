@@ -6,19 +6,21 @@
 </p>
 
 <br/>
-<p align="center">
+<p>
 🎁귀엽고 사랑스러운 후임 오레오가 풀스택 개발자로써 만들어주는 첫 선물~~!!🎁
 </p>
 
 <br/>
-<p align="center">
+<p>
 🔥한번 최선을 다해서 만들어보도록 고도리 해보자고~~🔥
 </p>
+
+<br/>
 
 
 |      오태훈                            |  김태훈                             |                                                     
 |:--------------------------------------:|:----:                           |
-|                                        |  Instagram Fashion Influncer    |
+|   FullStack Developer                  |  Instagram Fashion Influncer    |
 | [@RosieOh](https://github.com/rosieoh) |[@RosieOh](https://github.com/rosieoh) 
 
 
