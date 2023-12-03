@@ -1,20 +1,6 @@
-create database teaspoon;
+create database mainkim;
 
-USE teaspoon;
-
-CREATE table sample(NO INTEGER AUTO_INCREMENT PRIMARY KEY,
-NAME VARCHAR(100));
- 
- 
-INSERT INTO sample VALUES (DEFAULT, '김기태');
-INSERT INTO sample VALUES (DEFAULT, '한선');
-INSERT INTO sample VALUES (DEFAULT, '이은영');
-INSERT INTO sample VALUES (DEFAULT, '서광');
-INSERT INTO sample VALUES (DEFAULT, '이소윤');
-
-COMMIT;
-
-SELECT * FROM sample;
+USE mainkim;
 
 create table board(seq int AUTO_INCREMENT primary key,
 	title varchar(100) not null,
@@ -56,19 +42,18 @@ visited int default 0
 DESC MEMBER;
 
 INSERT INTO member VALUES ('admin', '1234', '관리자',
-'admin@teaspoon.co.kr', '0212341234', 
-'서울특별시 금천구 디지털로9길 23 (마리오2 패션타워)',
-'11층 1108호', '08511', DEFAULT, '2023-12-25',
+'admin@mainkim.co.kr', '0212341234',
+'서울특별시 금천구 디지털로9길 23',
+'1102호', '08511', DEFAULT, '2023-12-25',
 DEFAULT, DEFAULT);
-INSERT INTO member VALUES ('kim', '4321', '김천재',
-'kim@teaspoon.co.kr', '01043214321', 
-'서울특별시 금천구 가산로9길 54',
-'천재교과서', '08513', DEFAULT, '1978-12-25',
+INSERT INTO member VALUES ('h0on_s__', '1234', '김태훈',
+'h0on_s__@mainkim.co.kr', '01043214321',
+'서울특별시 관악구',
+'알아서 써라', '08513', DEFAULT, '1997-12-25',
 DEFAULT, DEFAULT);
 COMMIT;
 
 UPDATE member SET pw='$2a$10$TMTp1e7vW8nx7l7B49a2d.0robqb2qUFTuBPntKHRvVILg0CmBkqW' WHERE id='admin';
-UPDATE member SET pw='$2a$10$mpr36CRQpp903gPf.f76auK1CYzFkq.LD65JsGzdrBCiOluBotWYW' WHERE id='kim';
 SELECT * FROM member;
 
 create table free(bno INT AUTO_INCREMENT PRIMARY KEY,  -- 글번호
