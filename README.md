@@ -21,7 +21,7 @@
 |      오태훈                            |  김태훈                             |                                                     
 |:--------------------------------------:|:----:                           |
 |   FullStack Developer                  |  Instagram Fashion Influncer    |
-| [@RosieOh](https://github.com/rosieoh) |[@RosieOh](https://github.com/rosieoh) 
+| [@RosieOh](https://github.com/rosieoh) |[@TaehoonKim](https://www.instagram.com/__achrom4tic/) 
 
 
 ## 기술 스택
